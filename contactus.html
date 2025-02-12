@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <script src="script.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Contact StageFright</title>
+  </head>
+  
+  <body>
+     <nav class="navbar">
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+        <li><a href="information.html">Info</a></li>
+      </ul>
+    </nav>
+    <div>
+      <h1 class="contacthead">Contact Us</h1>
+    </div>
+
+    <div class="contact">
+      <h3>Book a Performance</h3>
+      <p>Rates for performances vary. Fill out the form below with questions pertaining to booking. Contact our agent at <b>booking@stagefright.com</b> and <br> call <b>123-456-7890</b> for any time sensitive questions.</p>
+      <h3>Fan Mail</h3>
+      <p>We love recieving fan mail, and we try to respond to as many letters as we can! Send your fan mail to <b>308 Negra Arroyo Lane, Albuquerque, New Mexico</b>,<br> or fill out the form below.</p>
+      <br>
+    </div>
+
+    <div class="contactform">
+      <form>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your Name...">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your Last Name...">
+        <label for="mail">Email</label>
+        <input type="text" id="mail" name="email" placeholder="your@email.com">
+        <label for="sub">Subject</label>
+        <select id="sub" name="subject">
+          <option>Select Subject...</option>
+          <option>Book A Performance</option>
+          <option>Fan Mail</option>
+          <option>Feedback</option>
+          <option>General Questions</option>
+          <option>Report an Issue</option>
+          <option>Request Refund</option>
+          <option>Other</option>
+        </select>
+        <label for="msg">Message</label>
+        <textarea type="text" id="msg" name="message" placeholder="Write Your Message..." style="height:200px"></textarea>
+        <button type="button" class="conform" onclick="openPopup()">Send</button>
+      </form>
+    </div>
+    <div id=contactPopup class="popup">
+      <div class=popcontent>
+        <span class="close" onclick="closePopup()">&times;</span>
+        <p>Sent!<br>Thank you for your message!<br>You should here back in at<br>most 48 hours.</p>
+      </div>
+    </div>
+  </body>
+  <footer class="footer">
+    <nav>
+      <ul>
+        <li><a href="YouTube.com">YouTube</a></li>
+        <li><a href="x.com">X</a></li>
+        <li><a href="instagram.com">Instagram</a></li>
+        <li><a href="facebook.com">Facebook</a></li>
+        <li><a href="tiktok.com">Tiktok</a></li>
+      </ul>
+    </nav>
+    <br>
+    <h4>Copyright 2024 All Rights Reserved</h4>
+  </footer>
+</html>
